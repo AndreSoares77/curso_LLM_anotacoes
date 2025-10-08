@@ -25,4 +25,5 @@ if st.button('Estimar Salário'):
     salario_em_reais = round(res_json['salario_em_reais'], 2)
     st.subheader(f'O slário estimado é de R$ {salario_em_reais}')
     
+# Para rodar
 # streamlit run app_streamlit_salario.py
